@@ -24,6 +24,24 @@ body {
     text-align: center;
   }
   
+
+  .logo {
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание по центру */
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    gap: 10px; /* Расстояние между картинкой и текстом */
+  }
+  
+  /* Размер и отступы изображения логотипа */
+  .logo img {
+    width: 50px; /* Размер изображения */
+    height: 50px; /* Размер изображения */
+  }
+
+
   .nav-links {
     display: flex;
     justify-content: center;
@@ -110,9 +128,40 @@ body {
     text-align: center;
   }
 
-  footer {
+.footer {
     background: #f8c9d4;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-  }
+}
+
+.footer {
+  background: #f8c9d4;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Расстояние между ссылками */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+.social-links img {
+  vertical-align: middle; /* Выравнивание иконок по вертикали */
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
