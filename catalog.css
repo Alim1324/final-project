@@ -1,0 +1,118 @@
+/* Базовые стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #f8c9d4;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .header .logo {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #ff1500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+  }
+  
+  .btn:hover {
+    background: #33ff00;
+  }
+  
+  .catalog {
+    background: #fdfdfd;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .catalog h2 {
+    margin-bottom: 20px;
+  }
+  
+  .products {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-card h3 {
+    margin: 10px 0;
+  }
+  
+  .about, .reviews {
+    padding: 50px 0;
+    background: #ffe9e4;
+    text-align: center;
+  }
+
+  footer {
+    background: #f8c9d4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
