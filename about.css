@@ -105,3 +105,70 @@ body {
   .container {
     margin-top: 20px;
   }
+
+
+  /* Общие стили для секции "О нас" */
+.about {
+  background-color: #f9f9f9; /* Светлый фон для контраста */
+  padding: 40px 0; /* Отступы сверху и снизу */
+  font-family: 'Arial', sans-serif; /* Шрифт для текста */
+  color: #333; /* Цвет текста */
+}
+
+.about .container {
+  max-width: 1200px; /* Ограничение максимальной ширины контейнера */
+  margin: 0 auto; /* Центрирование контейнера */
+  padding: 0 20px; /* Отступы по бокам */
+}
+
+.about h2 {
+  font-size: 36px; /* Размер шрифта заголовка */
+  font-weight: bold; /* Полужирный шрифт */
+  color: #f68a2e; /* Цвет заголовка */
+  text-align: center; /* Выравнивание по центру */
+  margin-bottom: 30px; /* Отступ снизу */
+}
+
+.about p {
+  font-size: 18px; /* Размер шрифта для текста */
+  line-height: 1.6; /* Межстрочный интервал */
+  text-align: justify; /* Выравнивание текста по ширине */
+  margin-bottom: 30px; /* Отступ снизу */
+  max-width: 800px; /* Максимальная ширина текста */
+  margin-left: auto; /* Центрирование текста */
+  margin-right: auto; /* Центрирование текста */
+}
+
+.about img {
+  display: block; /* Убираем лишние отступы вокруг изображения */
+  margin-top: 20px; /* Отступ сверху */
+  border-radius: 10px; /* Скругление углов изображения */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для изображения */
+}
+
+@media (max-width: 768px) {
+  /* Адаптивный стиль для мобильных устройств */
+  .about h2 {
+    font-size: 28px; /* Уменьшаем размер заголовка */
+  }
+
+  .about p {
+    font-size: 16px; /* Уменьшаем размер текста */
+    padding-left: 15px; /* Добавляем отступ слева для текста */
+    padding-right: 15px; /* Добавляем отступ справа для текста */
+  }
+}
+
+
+.pro {
+  display: flex;
+  justify-content: center;  /* По горизонтали */
+  align-items: center;      /* По вертикали */
+  height: 100vh;            /* Высота контейнера - 100% высоты экрана */
+  margin: 0;
+}
+.pro-image {
+  max-width: 100%;           /* Чтобы изображение не выходило за пределы экрана */
+  max-height: 100%; 
+  border-radius: 10px;
+}
